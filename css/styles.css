@@ -1,0 +1,168 @@
+body {
+  background-color: #1B191C;
+  color: #c8c8c8;
+}
+
+.container {
+  width: 65%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  padding: 20px 0px 0px 0px;
+  line-height: 1.45em;
+  font-size: 16pt;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 50pt;
+  color: #b6ab4f;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 26pt;
+  font-weight: lighter;
+  padding-bottom: 40px;
+  width: 85%;
+  color: #656866;
+}
+
+h4 {
+  font-family: sans-serif;
+  color: #656866;
+}
+
+cite {
+  font-size: 1.5em;
+}
+
+hr {
+  margin-bottom: 40px;
+}
+
+.imgdiv {
+  margin-top: 40px;
+  width: 50%;
+}
+
+img {
+  border: 1px solid #000;
+}
+
+
+@media screen and (min-width: 1024px) { 
+
+ h1{
+  font-family: Monaco;
+  font-variant: small-caps;
+  color: orange;
+
+ }
+
+ h2{
+  color: black;
+ }
+
+ h4{
+  color: black;
+ }
+
+ body{
+  background-color: gray;
+ }
+}
+
+@media screen and (max-width: 600px){
+
+  body{
+    background-color: orange;
+  }
+
+  h1{
+    font-size: 35px;
+    color: black;
+  }
+
+  h2{
+    font-size: 24px;
+   
+  }
+
+  cite{
+    font-size: 20px;
+    color: #656866;
+    background-color: white;
+    padding: 1px 20px 1px 20px;
+  }
+
+  p{
+    font-size: 16px;
+    color: white;
+  }
+
+  img{
+    width: 210%;
+    border-color: yellow;
+    border-style: solid;
+
+  }
+
+  caption{
+    color: darkgray;
+  }
+ 
+}
+
+@media screen and (max-width: 480px) {
+
+  body{
+    background-color: red;
+  }
+
+  h1{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: arial;
+  }
+
+  h2{
+    color: darkred;
+    font-size: 18px;
+  }
+
+  h4{
+    color: darkred;
+    font-size: 15px;
+
+  }
+
+   cite{
+    font-size: 15px;
+    background-color: red;
+    color: white;
+  }
+
+  p{
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+
+}
+
+/*
+Choose 3 properties to change on the body, 
+h1, h2, and p tags, for each media query.
+    1. padding on body
+    2. font-size of h1, h2, and p
+    3. line-height of p
+    4. font-family of h1
+    5. color of h1, h2, and p
+*/
